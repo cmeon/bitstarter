@@ -7,7 +7,7 @@ app.get('/', function(request, response) {
   var buf = fs.readFileSync('index.html');
   var page = buf.toString('utf-8');
   var b="kl";
-  response.send(b);
+  response.send("lk");
 });
 
 var port = process.env.port || 5000;
